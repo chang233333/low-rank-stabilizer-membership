@@ -8,7 +8,7 @@ Exact algorithms for membership in the stabilizer polytope, parameterized by the
 
 For an explicitly encoded rational qubit density matrix of dimension $D$, rank $r$, and input bit length $L$:
 
-- Exact deterministic membership testing in $2^{O(\log^2(r+1))}\operatorname{poly}(D,L)$ bit operations.
+- Exact deterministic membership testing in $2^{O(\log^2(r+1))}\mathrm{poly}(D,L)$ bit operations.
 - Injective Pauli compression to a space of dimension at most $r^2$, preserving stabilizer rays in the support.
 - For a member, a rational convex decomposition with at most $r^2$ stabilizer projectors; for a nonmember, a rational Hermitian witness valid on every stabilizer state.
 - A one-step compression obstruction at the quadratic dimension scale and an extension to odd-prime local dimensions.
